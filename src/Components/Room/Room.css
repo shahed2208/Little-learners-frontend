@@ -1,0 +1,387 @@
+.rooms-gallery-section {
+    background-color: #f8f0e3; 
+    padding: 80px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .rooms-gallery-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gallery-button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+  }
+  .gallery-button:hover{
+      background-color: #eee;
+  }
+  
+  .rooms-gallery-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .rooms-gallery-content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .filter-button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .filter-button.active {
+    background-color: #000;
+    color: #fff;
+  }
+  .filter-button:hover{
+      background-color: #eee;
+  }
+  
+  /* تصميم متجاوب للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .rooms-gallery-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .rooms-gallery-content p {
+      font-size: 1rem;
+    }
+      .rooms-gallery-section{
+          padding: 60px 10px;
+      }
+  }
+  .classrooms-section {
+    background-color: #f8f0e3;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
+  
+  .classrooms-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+  }
+  .nav-button:hover{
+      background-color: #eee;
+  }
+  
+  
+.classrooms-images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    position: absolute;
+    top: -60px; 
+    left: 20px;
+    right: 20px;
+}
+.classrooms-image-wrapper{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.classrooms-image-wrapper:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.classrooms-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+ 
+.classrooms-card {
+    background-color: white;
+    padding: 130px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-style: solid;
+    position: relative; 
+}
+
+  /* تصميم متجاوب للشاشات الصغيرة */
+  @media (max-width: 768px) {
+      .classrooms-content{
+          text-align: center;
+      }
+    .classrooms-content h3 {
+      font-size: 1.7rem;
+    }
+  
+    .classrooms-content p {
+      font-size: 1rem;
+    }
+      .classrooms-section{
+          padding: 40px 10px;
+      }
+  }
+  .library-section {
+    background-color: #f8f0e3;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .library-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+
+.library-card {
+    background-color: white;
+    padding: 130px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-style: solid;
+    position: relative; 
+}
+
+.library-images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    position: absolute;
+    top: -60px; 
+    left: 20px;
+    right: 20px;
+}
+.library-image-wrapper{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.library-image-wrapper:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.library-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+ 
+
+
+
+.ScienceLab-section {
+    background-color: #f8f0e3;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .ScienceLab-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+
+.ScienceLab-card {
+    background-color: white;
+    padding: 130px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-style: solid;
+    position: relative;
+}
+
+.ScienceLab-images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    position: absolute; 
+    top: -60px; 
+    left: 20px;
+    right: 20px;
+}
+.ScienceLab-image-wrapper{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.ScienceLab-image-wrapper:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ScienceLab-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+ 
+
+
+
+.Garden-section {
+  background-color: #f8f0e3;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Garden-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.Garden-card {
+  background-color: white;
+  padding: 130px;
+ 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-style: solid;
+  position: relative; 
+}
+
+.Garden-images-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  position: absolute; 
+  top: -60px; 
+  left: 20px;
+  right: 20px;
+}
+.Garden-image-wrapper{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Garden-image-wrapper:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Garden-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+.Computer-section {
+  background-color: #f8f0e3;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Computer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.Computer-card {
+  background-color: white;
+  padding: 130px;
+ 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للكرت */
+  border-style: solid;
+  position: relative; /* مهم لوضع الصور بشكل مطلق */
+}
+
+.Computer-images-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  position: absolute; /* وضع الصور بشكل مطلق */
+  top: -60px; /* تحريك الصور للأعلى. عدل هذه القيمة حسب الحاجة */
+  left: 20px;
+  right: 20px;
+}
+.Computer-image-wrapper{
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Computer-image-wrapper:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Computer-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}

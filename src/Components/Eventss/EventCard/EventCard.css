@@ -1,0 +1,47 @@
+.event-card {
+  position: relative;
+  width: 280px; /* عرض أصغر للكارد */
+  height: 350px; /* ارتفاع أصغر */
+  padding: 15px; /* تقليل الحواف الداخلية */
+  text-align: center;
+  border-radius: 12px; /* لتنعيم الزوايا */
+  overflow: hidden;
+  background-color: #ffffff; /* خلفية بيضاء */
+  border: 1px solid #ddd; /* إطار رمادي خفيف */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* تكبير الظل */
+}
+
+.event-image {
+  width: 100%; /* عرض الصورة بحجم الكارد */
+  height: 150px; /* تصغير ارتفاع الصورة */
+  object-fit: cover; /* لضبط الصورة مع الإطار */
+  border-radius: 8px; /* تنعيم زوايا الصورة */
+  margin-bottom: 10px; /* تقليل المسافة بين الصورة والمحتوى */
+}
+
+.card-body {
+  position: relative;
+  z-index: 2; /* النص فوق الخلفية */
+  padding: 10px; /* تقليل الحواف الداخلية */
+}
+
+.card-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem; /* حجم أصغر للنص */
+  font-weight: 700;
+  margin: 8px 0; /* تقليل المسافة بين العنوان والنص */
+  color: #333;
+}
+
+.card-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9rem; /* تصغير النص */
+  color: #666;
+  text-align: center;
+}

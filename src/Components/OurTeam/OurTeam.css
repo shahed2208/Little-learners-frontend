@@ -1,0 +1,120 @@
+.our-team-section {
+    background-color: #f8f0e3; 
+    padding: 80px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center; 
+  }
+  
+  .our-team-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .team-button {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+  }
+  .team-button:hover{
+      background-color: #eee;
+  }
+  
+  .our-team-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .our-team-content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #555;
+  }
+  
+  /* تصميم متجاوب للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .our-team-content h2 {
+      font-size: 2.5rem;
+    }
+  
+    .our-team-content p {
+      font-size: 1rem;
+    }
+      .our-team-section{
+          padding: 60px 10px;
+      }
+  }
+  .team-members-section {
+    background-color: #f8f0e3;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .team-members-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .team-member-card {
+    background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative; 
+  padding: 20px;
+  }
+  .member-image-container{
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    border: 2px solid #ddd;
+  }
+  
+  .member-image {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  }
+  
+  .member-details {
+    padding-left: 100px;
+    text-align: left;
+  }
+  
+  .member-details h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .member-details .qualification {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .member-details p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .team-members-container {
+      grid-template-columns: 1fr; 
+    }
+  }

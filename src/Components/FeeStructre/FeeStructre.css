@@ -1,0 +1,81 @@
+.fee-structure-container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fdf6f0;
+    padding: 20px;
+  }
+  
+  .fee-wrapper {
+
+    padding: 20px;
+  
+  }
+  
+  .journey-button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .fee-section,
+  .additional-services {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0; 
+    text-align: left; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px;
+    background-color: #f8e8dc;
+    color: #141414;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .fee-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #ccc; 
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .fee-table th,
+  .fee-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .fee-table th {
+    background: #f8e8dc;
+    color: #141414;
+  }
+  
+  .fee-table th:first-child {
+    border-top-left-radius: 8px;
+  }
+  
+  .fee-table th:last-child {
+    border-top-right-radius: 8px;
+  }
+  
+  .fee-table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  .fee-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }

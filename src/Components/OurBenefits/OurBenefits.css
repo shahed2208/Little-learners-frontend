@@ -1,0 +1,115 @@
+.our-benefits-section {
+    background-color: #f8f0e3; 
+    padding: 80px 20px; 
+    box-sizing: border-box; 
+    width: 100%; 
+    text-align: center; 
+  }
+  
+  .our-benefits-content {
+    max-width: 900px; 
+    margin: 0 auto; 
+  }
+  
+  .benefits-button {
+    background-color: transparent;
+    border: 1px solid #000; 
+    padding: 10px 20px; 
+    margin-bottom: 30px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+      font-size: 1rem; 
+      transition: all 0.3s ease; 
+  }
+  .benefits-button:hover{
+      background-color: #eee; 
+  }
+  
+  .our-benefits-content h2 {
+    font-size: 3rem; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+  }
+  
+  .our-benefits-content p {
+    font-size: 1.2rem;
+    line-height: 1.7; 
+    color: #555; 
+  }
+  
+  /* تصميم متجاوب للشاشات الصغيرة */
+  @media (max-width: 768px) { 
+    .our-benefits-content h2 {
+      font-size: 2.5rem; 
+    }
+  
+    .our-benefits-content p {
+      font-size: 1rem;
+    }
+      .our-benefits-section{
+          padding: 60px 10px; 
+      }
+  }
+  .benefits-section {
+    background-color: #f8f0e3; 
+    padding: 60px 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-gap: 20px;
+  }
+  
+  .benefit-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    position: relative; 
+  }
+  
+  .icon-container {
+      width: 60px;
+      height: 60px;
+      position: absolute; 
+      top: -20px; 
+      left: 20px;
+      background-color: white;
+      padding: 5px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+  }
+  
+  .benefit-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+  }
+  
+  .benefit-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 40px; 
+    margin-bottom: 10px;
+  }
+  
+  .benefit-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* تصميم متجاوب للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .benefits-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
